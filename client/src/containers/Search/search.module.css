@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 94vh;
+  margin-top: 220px;
+}
+
+.btnatras button {
+  border: none;
+  width: 150px;
+  height: 80px;
+  background-color: rgb(21, 33, 48);
+  color: aliceblue;
+  font-size: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btnatras button:hover {
+  background-color: blueviolet;
+}

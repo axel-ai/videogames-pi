@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:900i&display=swap");
+.contenedor * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("https://i.pinimg.com/originals/9a/58/c3/9a58c343701abc80f7e1d5ec4142ab4d.gif");
+  /* background-image: url("https://wallpapercave.com/wp/wp7664856.png"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+}
+/* .circle {
+  position: absolute;
+  top: 0;
+  left: 30rem;
+  width: 75%;
+  height: 100%;
+  background: #eb5f282c;
+  clip-path: circle(60% at top right);
+} */
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titulo {
+  position: absolute;
+}
+.content .titulo h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 25rem;
+  margin-left: 27rem;
+  line-height: 4em;
+  font-weight: 700;
+}
+.content .titulo h2 span {
+  font-family: "Montserrat", sans-serif;
+
+  transform: translate(-50%, -50%);
+  font-size: 150px;
+  letter-spacing: 0.1em;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 8px 8px #eb5e28, 20px 20px #000000;
+}
+
+/* .content .text p {
+  color: #fff;
+  font-size: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 800px;
+} */
+
+.content .text h3 {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 10px;
+  line-height: 1.3em;
+  font-weight: 700;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 1.4rem;
+  font-weight: 600;
+  border-radius: 10px;
+  position: absolute;
+  left: 51.5rem;
+  top: 21rem;
+  background-color: #eb5e28;
+}
+
+.btn:hover {
+}
+
+.imagen {
+  position: absolute;
+  background-color: #ffffff5d;
+  backdrop-filter: blur(13.7px);
+  border-radius: 50px;
+  width: 230px;
+  height: 150px;
+  left: 60rem;
+}
+
+.imagen img {
+  position: absolute;
+  left: -1.8rem;
+  top: -3.5rem;
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #252422;
+  backdrop-filter: blur(12px) saturate(180%);
+
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
+  width: 300px;
+  height: 130px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 1.8rem;
+  transition: 0.2s ease-out;
+  color: azure;
+}
+
+.textCard {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nameGenres {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.name {
+  font-family: "RocknRoll One", sans-serif;
+  display: flex;
+  align-items: start;
+  margin-top: 50px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.genres {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: start;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: gold;
+}
+
+.divRating {
+  background-color: #eec643;
+  font-weight: 700;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 10%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  position: absolute;
+}
+
+.btn button {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  font-size: 15px;
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.btn button {
+  cursor: pointer;
+}
+
+.btn button:hover {
+  border-color: #ffffff80;
+}
+
+.btnVolver {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #eec643;
+  padding: 10px;
+  border-radius: 15px;
+}

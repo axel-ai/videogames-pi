@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+.quitar {
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgb(20, 46, 100);
+  backdrop-filter: blur(13.7px);
+
+  border-radius: 10px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
+  width: 300px;
+  height: 320px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  color: azure;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border-color: #ffffff;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+  transform: scale(1.015);
+}
+
+.gral {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.textCard {
+  margin-top: 12px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Roboto";
+}
+
+.nameGenres {
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  position: absolute;
+  font-family: "Space Grotesk", sans-serif;
+  display: flex;
+  align-items: start;
+  font-size: 22px;
+  margin-top: -30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.card:hover .name {
+  color: #ffc525;
+}
+
+.img {
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.genres {
+  display: flex;
+  align-items: start;
+  position: absolute;
+  color: rgb(142, 144, 151);
+
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.93em;
+}
+
+.divRating {
+  background-color: #ffc525;
+
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 20%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: 110px;
+  margin-left: 240px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.83em;
+}

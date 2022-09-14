@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.background {
+  background-color: cadetblue;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  min-height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  height: 94vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container h1 {
+  margin-top: 90px;
+}
+
+.form {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 100%;
+  width: 1450px;
+  background-color: rgba(28, 98, 163, 0.63);
+  backdrop-filter: blur(11.7px);
+  padding: 5px;
+  margin-bottom: 120px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.313);
+  position: relative;
+}
+
+.primero {
+  background-color: rgb(21, 33, 48);
+  backdrop-filter: blur(11.7px);
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 2rem;
+}
+.segundo {
+  background-color: rgb(170, 222, 135);
+  position: absolute;
+  display: flex;
+  border-radius: 30px 90px 30px 90px;
+  width: 400px;
+
+  position: absolute;
+  top: 50%;
+  left: -300px;
+  transform: translate(-50%, -50%);
+}
+.tercero {
+  background-color: rgb(219, 103, 235);
+  position: absolute;
+  top: 50%;
+  left: 900px;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  padding: 30px;
+  border-radius: 90px 30px 90px 30px;
+}
+
+.divTitles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.divTitles label {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 20px;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+
+.label {
+  width: 420px;
+  height: 30px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+  background: none;
+  margin: 20px;
+  color: white;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.checkboxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 650px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.gendivs {
+  display: flex;
+}
+
+.checks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.checks input:hover {
+  cursor: pointer;
+}
+
+.button {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+
+  cursor: pointer;
+}
+
+.button button {
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cuadraditos {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  font-size: 20px;
+}
+.cuadraditos2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  font-size: 20px;
+}
+
+.error p {
+  color: red;
+  font-weight: 700;
+  margin-top: -10px;
+}
+
+.fechayrating {
+  display: flexbox;
+}
+
+.fecha input {
+  width: 8rem;
+  color: black;
+  background-color: aliceblue;
+  text-align: center;
+  font-weight: 600;
+}
+
+.rating input {
+  width: 8rem;
+  color: black;
+  background-color: aliceblue;
+  font-weight: 600;
+  text-align: center;
+}
+
+.imagen input {
+  background-color: cadetblue;
+}
+
+.quitar {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.volver {
+  background-color: brown;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  border-radius: 15px;
+}
